@@ -1,0 +1,10 @@
+.container-fluid{
+    width: 100%;
+    height: 46rem;
+    background-size: cover;
+    background-image: linear-gradient(to bottom right,rgba(227,13,13,0.7),rgba(227,13,13,0.7)),url("src/img1.png");
+}
+
+.product{
+    height: 23rem;
+}
