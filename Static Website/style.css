@@ -1,0 +1,218 @@
+/* about us */
+
+.navigation {
+    background-color: rgb(238, 238, 140);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.navigation a{
+    text-align: center;
+    padding: 12px;
+    color: rgb(13, 1, 1);
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%;
+}
+
+.main{
+    display: flex;
+    
+
+}
+
+.main .first{
+    background-color: rgb(215, 222, 222);
+    height: 700px;
+    width: 450px;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.main .second{
+    display: block; 
+}
+
+.main .second img{
+    width: 1145px;
+    height: 350px;
+}
+
+.main .second .two{
+    padding-left: 50px;
+}
+
+.main .second .two p{
+    font-size: 20px;
+}
+
+.gal {
+    height: 100px;
+    width: 1500px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+.gal h1{
+    margin-top: 35px;
+    float: center;
+}
+
+.photos{
+    width: 1500px;
+    height: 250px;
+    display: inline-block;
+}
+
+.photos img{
+    width: 246px;
+    height: 250px;
+}
+
+.link{
+    margin-top: -5px;
+    display: flex;
+    background-color: black;
+}
+
+.link .first{
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+.link .second{
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+.link .third{
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+.link .fourth{
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+.link .fifth{
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+
+.footer{
+    height: 100px;
+    width: 1500px;
+    background-color: rgb(42, 38, 30);
+    display: flex;
+    justify-content: center;
+}
+
+.footer h1{
+    color: white;
+    margin-top: 35px;
+    float: center;
+}
+
+/* Contact Us */
+
+.main .second .two label{
+    font-size: 15px;
+}
+.main .second .two h2{
+    margin-bottom: 5px;
+}
+
+.main .cont{
+    background-color: rgb(215, 222, 222);
+    height: 1125px;
+    width: 450px;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.main button{
+    margin-top: 15px;
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+}
+
+/* homepage */
+
+.homemain{
+    justify-content: center;
+}
+
+.products{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.products1{
+    width: 1000px;
+    height: 300px;
+    border: 1px solid rgb(209, 194, 194);
+    margin-bottom: 10px;
+}
+
+.products1 img{
+    float: left;
+    padding: 5px;
+    padding-right: 50px;
+    height: 290px;
+    width: 290px;
+}
+
+.products1 h1{
+    text-align: left;
+}
+
+/* product details */
+
+.pdmain{
+    display: flex;
+    padding-top: 1px;
+}
+
+.pdmain .first{
+    height: 700px;
+    width: 50%;
+    display: block;
+}
+
+.pdmain .second{
+    height: 700px;
+    width: 50%;
+    padding-left: 40px;
+}
+
+/* products */
+
+.pmain{
+    display: flex;
+    padding-top: 1px;
+}
+
+.pmain .first{
+    background-color: rgb(215, 222, 222);
+    height: 2395px;
+    width: 450px;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.pmain .second{
+    display: block;
+}
