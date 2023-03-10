@@ -33,7 +33,9 @@ const Signup = () => {
             setErrors(newErrors);
             return;
         } 
+
         setSubmit(true)
+        setErrors([])
     
         // const newRecord = { ...userdata , id: new Date().getTime().toString()}
         // setData([...data,newRecord]);
@@ -79,6 +81,12 @@ const Signup = () => {
     const updatedata = (e) => {
         e.preventDefault()
         setIsedit(false)
+        const newErrors = validate(userdata)
+        if( Object.keys(newErrors).length > 0){
+            setErrors(newErrors);
+            return;
+        } 
+        setErrors([])
     }
     return (
         <>
