@@ -63,8 +63,8 @@ const Todo = () => {
                 onChange={(e) => setInput(e.target.value)}
             ></input>
             {
-                edit ? <button className=' btn btn-primary text-white' onClick={handleEdit}>SAVE</button> :
-                <button className=' btn btn-primary text-white' onClick={() => dispatch( { type: "ADD_TODO" , payload: input})}>ADD</button> 
+                edit ? <button className=' btn btn-primary text-white ms-2' onClick={handleEdit}>SAVE</button> :
+                <button className=' btn btn-primary text-white ms-2' onClick={() => dispatch( { type: "ADD_TODO" , payload: input})}>ADD</button> 
             }
             {/* <button className=' btn btn-primary text-white' onClick={() => dispatch( { type: "ADD_TODO" , payload: input})}>ADD</button>  */}
 
