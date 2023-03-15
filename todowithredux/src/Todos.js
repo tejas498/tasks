@@ -1,7 +1,7 @@
 import React , { useState} from 'react'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import { useSelector , useDispatch } from 'react-redux';
-import { addTodo, delAll, delTodo, editTodo } from './store/actions/todoaction';
+import { addTodo, dec, delAll, delTodo, editTodo, inc } from './store/actions/todoaction';
 
 const Todos = () => {
 
@@ -9,6 +9,7 @@ const Todos = () => {
     const [ edit , setEdit] = useState(false)
     const [ edititem , setEdititem] = useState(null)
     const data = useSelector((state) => state.todoreducer)
+    const number = useSelector( state => state.chngNumber)
     const dispatch = useDispatch()
 
     const handleEdit = ( ) => {
@@ -46,7 +47,12 @@ const Todos = () => {
             <div className='mt-3'>
                 <button className=' btn btn-primary text-white' onClick={() => dispatch(delAll())}>DELETE All</button>
             </div>
-
+            
+            <h1 className='mt-4 text-primary'>Inc/Dec</h1>
+            
+            <button className=' btn btn-primary text-white me-2' onClick={() => dispatch(dec())}>DEC</button>
+            <input type="text" value={number}></input>
+            <button className=' btn btn-primary text-white ms-2' onClick={() => dispatch(inc())}>INC</button>
         </>
     )
 }

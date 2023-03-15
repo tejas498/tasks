@@ -1,6 +1,6 @@
 const initialstate = [];
 
-const todoreducer = (state = initialstate , action ) => {
+export const todoreducer = (state = initialstate , action ) => {
     switch(action.type){
         case "ADD_TODO":
             return [
@@ -29,4 +29,15 @@ const todoreducer = (state = initialstate , action ) => {
     }
 }
 
-export default todoreducer
+const initial = 0;
+
+export const chngNumber = (state = initial , action ) => {
+    switch(action.type){
+        case "INC":
+            return state = state + 1;
+        case "DEC":
+            return state = state - 1;
+        default:
+            return state;
+    }
+}

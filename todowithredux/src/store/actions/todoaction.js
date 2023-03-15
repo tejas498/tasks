@@ -27,3 +27,15 @@ export const editTodo = (index, itext) => {
         }
     }
 }
+
+export const inc = () => {
+    return {
+        type: "INC"
+    }
+}
+
+export const dec = () => {
+    return {
+        type: "DEC"
+    }
+}
