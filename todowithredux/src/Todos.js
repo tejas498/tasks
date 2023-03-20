@@ -50,9 +50,9 @@ const Todos = () => {
             
             <h1 className='mt-4 text-primary'>Inc/Dec</h1>
             
-            <button className=' btn btn-primary text-white me-2' onClick={() => dispatch(dec())}>DEC</button>
-            <input type="text" value={number}></input>
-            <button className=' btn btn-primary text-white ms-2' onClick={() => dispatch(inc())}>INC</button>
+            <button className=' btn btn-primary text-white me-2 mt-1' onClick={() => dispatch(dec())}>DEC</button>
+            <input type="text" value={number} className="mt-4"></input>
+            <button className=' btn btn-primary text-white ms-2 mt-1' onClick={() => dispatch(inc())}>INC</button>
         </>
     )
 }
